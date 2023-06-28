@@ -1,0 +1,17 @@
+body {
+  background-color: #a6bed5;
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+}
+
+.btn2col {
+  width: 120px;
+}
+#screen {
+  width: 250px;
+  height: 50px;
+  font-size: x-large;
+}
