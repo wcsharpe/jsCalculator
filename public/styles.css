@@ -7,9 +7,11 @@ body {
   height: 60px;
 }
 
-.btn2col {
+/* .btn2col {
   width: 120px;
-}
+/* }  
+Was going to make 0 two cols, but add another button instead. */
+
 #screen {
   width: 250px;
   height: 50px;

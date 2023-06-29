@@ -1,9 +1,15 @@
 function numberSymbolButton(num) {
+  if(num==="." && document.getElementById("screen").value.includes(".")) return // only one decimal allowed
   document.getElementById("screen").value += num; // add button input to screen
 }
 
 function clearButton() {
   document.getElementById("screen").value = ""; // remove input from screen
+}
+
+function backSpaceButton() {
+  let num = document.getElementById("screen").value.slice(0,-1); // backspace one of screen value
+  document.getElementById("screen").value = num; // update screen
 }
 
 function calculateButton() {
